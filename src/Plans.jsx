@@ -6,7 +6,7 @@ const PLAN_CATALOG = {
   monthly: [
     {
       // id: "plan_RSGPm194Bj0Rqr",
-      id: "plan_Rv0JLJgLsytOT7",
+      id: "plan_RSgkDvrWdUbK66",
       name: "Starter",
       tagline: "Great for individuals",
       storage: "2 TB",
@@ -22,7 +22,7 @@ const PLAN_CATALOG = {
     },
     {
       // id: "plan_RSGQzIncll0pyD",
-      id: "plan_Rv0JkbJqsK1uw9",
+      id: "plan_RSg7Nb0DeSPjRx",
       name: "Pro",
       tagline: "For creators & devs",
       storage: "5 TB",
@@ -34,7 +34,7 @@ const PLAN_CATALOG = {
     },
     {
       // id: "plan_RSGRwZz8Etth4Z",
-      id: "plan_Rv0KBTE3Dktt3g",
+      id: "plan_RSglJD8xYAeNQJ",
       name: "Ultimate",
       tagline: "Teams & power users",
       storage: "10 TB",
@@ -48,7 +48,7 @@ const PLAN_CATALOG = {
   yearly: [
     {
       // id: "plan_RSGQ0zJcEnFyrb",
-      id: "plan_Rv0Kn7hatXAAGa",
+      id: "plan_RSgklpIChuY3bX",
       name: "Starter",
       tagline: "Great for individuals",
       storage: "2 TB",
@@ -64,7 +64,7 @@ const PLAN_CATALOG = {
     },
     {
       // id: "plan_RSGRCz4Dk1OHII",
-      id: "plan_Rv0LGGAbxfiNCx",
+      id: "plan_RSg7YdOasAEtld",
       name: "Pro",
       tagline: "For creators & devs",
       storage: "5 TB",
@@ -76,7 +76,7 @@ const PLAN_CATALOG = {
     },
     {
       // id: "plan_RSGTXYCMqGK3Dd",
-      id: "plan_Rv0Lhr8x2waOQ4",
+      id: "plan_RSgl6SqCd64FWT",
       name: "Ultimate",
       tagline: "Teams & power users",
       storage: "10 TB",
@@ -250,9 +250,9 @@ function openRazorpayPopup({ subscriptionId, user, course, onClose }) {
   console.log(subscriptionId);
   const rzp = new Razorpay({
     // key: "rzp_live_RQtKefrYAszEWo",
-    key: "rzp_test_Rr3XAdbKhkrmbM",
+    key: "rzp_test_RSg3Fv2zJuKq4V",
     description: "My first test payment.",
-    name: "Rex Lab",
+    name: "ProCodrr Labs",
     subscription_id: subscriptionId,
     image: "http://localhost:5173/procodrr.png",
     notes: {
